@@ -3,4 +3,5 @@
 @import 'tailwindcss/utilities';
 @import './custom/login.scss';
 @import './custom/header.scss';
-@import './custom/utilities.scss'
+@import './custom/utilities.scss';
+@import './custom/register.scss'
