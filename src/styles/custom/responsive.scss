@@ -1,0 +1,112 @@
+@media only screen and (max-width: 900px){
+   .icons{
+      margin: 22px 39px;
+      font-size: 31px;
+      color: black;
+      display: block;
+  }
+  .nav-bar li{
+   display: none;
+  }
+} 
+
+
+@media only screen and (max-width: 650px){
+.company{
+   display: none;
+}
+.design{
+   display: none;
+}
+.account-list{
+   display: none;
+}
+.courses-list{
+   display: none;
+}
+.image-box{
+   display: none;
+}
+.fec{
+   display: none;
+}
+.t-icon{
+   display: none;
+}
+.ins-icon{
+   display: none;
+}
+.ni-icon{
+   display: none;
+}
+.yo-icon{
+   display: none;
+}
+.minu-bar{
+   color: white;
+   margin: -27px -38px;
+   font-size: 30px;
+   position: absolute;
+   display: block !important;
+}
+.footer-app{
+   height: 334px !important;
+}
+.footer-heading{
+   font-size: 24px!important;
+
+}
+.name{
+   font-size: 28px!important;
+   padding: 10px 14px !important;
+   transform: translate(11px, 116px);
+}
+.icons{
+   color: white;
+    font-size: 16px;
+    margin: 6px 7px;
+    text-align: end;
+}
+.app-box{
+   background-color: #232364;
+   width: 134px;
+   position: absolute;
+   margin: 16px -8px;
+   height: 220px;
+}
+.image-1{
+   width: 36px;
+   height: 36px;
+   margin: 10px 11px;
+   border-radius: 19px;
+   padding: 8px 10px;
+   font-size: 20px;
+   background-color: white;
+   color: blue;
+   font-weight: 800;
+}
+.image-2{
+   border: 1px solid;
+    height: 39px;
+    border-radius: 21px;
+    margin: 0px 8px;
+    background-color: white;
+}
+.image-3{
+   border: 1px solid;
+   padding: 4px;
+   height: 37px;
+   margin: 7px 10px;
+   border-radius: 22px;
+   background-color: white;
+}
+.image-in{
+   border: 1px solid white;
+   width: 38px;
+   border-radius: 20px;
+   margin: 0px 9px;
+}
+.image-4{
+   border-radius: 23px;
+}
+}

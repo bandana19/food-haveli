@@ -7,6 +7,7 @@ module.exports = {
           danger:'#9F0717',
           warning:'#DD5304',
           success :'#027C2B',
+          
         },
         fontFamily: {
           sans: ['Roboto', 'sans-serif'],
