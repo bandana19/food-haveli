@@ -25,14 +25,18 @@ const Header = () => {
       )}
       <div className="header">
         <h1>Header</h1>
+         <div >
+        <input className="search-input" type='text' placeholder="Search products....."/>
+        <button className="search-button">search</button>
+        </div>
         <nav className="nav-bar">
           <ul>
             <li className="home">HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>PAGES</li>
-            <li>BLOG</li>
-            <li>CONTACT</li>
+            <li className="list-1">ABOUT</li>
+            <li className="list-2">PORTFOLIO</li>
+            <li className="list-3">PAGES</li>
+            <li className="list-4">BLOG</li>
+            <li className="list-5">CONTACT</li>
             <i
               class="fa fa-align-justify icons "
               onClick={() => setOpenModal(true)}

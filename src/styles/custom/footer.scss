@@ -5,7 +5,7 @@
     color:#0b0f71;
     transform: translate(0px, 203px);
 }
-.name{
+.useing-cour{
     font-size: 30px;
     font-weight: 900;
     border: 1px solid;
@@ -18,9 +18,10 @@
 }
 .footer-app{
     border: 1px solid;
-    height: 359px;
+    height: 422px;
     background-color: #1f1f91;
     width: 100%;
+    margin: 5px 0px;
 }
 .footer {
   display: flex;
@@ -109,7 +110,6 @@ hr{
     margin: 36px 3px !important;
 }
 
-// list
 .company{
     color: white;
 }
@@ -210,7 +210,7 @@ hr{
 .top-footer{
     color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: -89px;
     width: 99.9%;
     background-color: #091a3f;
     height: 48px;
