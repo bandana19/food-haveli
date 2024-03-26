@@ -1,7 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import './custom/login.scss';
-@import './custom/header.scss';
-@import './custom/utilities.scss';
-@import './custom/register.scss'
+@import 'custom/login.scss';
+@import 'custom/header.scss';
+@import 'custom/utilities.scss';
+@import 'custom/register.scss';
+@import 'custom/forgetPassword.scss';
+@import 'custom/responsive.scss';
+@import 'custom/footer.scss';
+@import 'custom/productList.scss';
+@import 'custom/crousel.scss';

@@ -1,5 +1,98 @@
-.main {
-   p{
-    color: theme('colors.danger');
-   }
+.row{
+  margin-right:0px!important; 
+   margin-left:0px!important;
+   text-align: center!important;
+}
+.login-file{
+   box-shadow: -2px 6px 11px gray;
+   width:30%;
+   height:auto;
+   margin:20px auto;
+}
+.login-file h1{
+   font-size: 26px;
+   font-weight: 800;
+   text-decoration: underline;
+   padding:8px;
+}
+.login-file p{
+   font-size: 13px;
+   text-align: center;
+   padding: 13px
+}
+.login-file h2{
+   padding: 8px 17px;
+}
+.login-file input{
+   border: 1px solid gray;
+   width: calc(100% - 20px);
+   padding: 1px 7px;
+   margin: 0 10px;
+   border-radius: 4px;
+   height: 31px;
+}
+.text-box{
+   border: 1px solid rgb(122, 13, 200)!important;
+   width: calc(100% - 20px);
+   padding: 1px 7px;
+   margin: 0 10px;
+   border-radius: 4px;
+   height: 31px;
+}
+.login-button{
+   width: calc(100% - 20px);
+   padding: 1px 7px;
+   margin: 0 10px;
+   border-radius: 4px;
+   height: 31px;
+   text-align: center;
+   color:white;
+   background-color:  rgb(126 29 246);
+}
+.google-img{
+height:27px;
+display: inline-block;
+}
+
+.git-image{
+   height:27px;
+display: inline-block;
+margin: 0px 1px
+}
+.click-button{
+   border: 1px solid gray;
+   width: calc(100% - 20px);
+   padding: 1px 7px;
+   margin: 0 10px;
+   border-radius: 4px;
+   height: 31px;
+}
+.click-button span{
+   font-size: 13px;
+   font-family: sans-serif;
+   font-weight: 600;
+   color: gray;
+}
+.button-github{
+   border: 1px solid gray;
+   width: calc(100% - 20px);
+   padding: 1px 7px;
+   margin: 13px 10px;
+   border-radius: 4px;
+   height: 31px;
+}
+.button-github span{
+   font-size: 13px;
+   font-family: sans-serif;
+   font-weight: 600;
+   color: gray;
+}
+.disc{
+   font-size: 13px;
+}
+.disc span{
+   color:rgb(126 29 246);
+}
+.link-tag{
+   color:rgb(126 29 246);
 }

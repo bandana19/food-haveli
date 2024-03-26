@@ -1,0 +1,233 @@
+.footer-heading{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    color:#0b0f71;
+    transform: translate(0px, 203px);
+}
+.useing-cour{
+    font-size: 30px;
+    font-weight: 900;
+    border: 1px solid;
+    width: 393px;
+    padding: 11px 5px;
+    background-color: #0b0f71;
+    color: white;
+    margin: 135px auto;
+    transform: translate(10px, 88px);
+}
+.footer-app{
+    border: 1px solid;
+    height: 422px;
+    background-color: #1f1f91;
+    width: 100%;
+    margin: 5px 0px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the footer takes at least the full height of the viewport */
+}
+
+.footer .footer-app {
+  margin-top: auto; /* Push content to the bottom */
+}
+.footer-app .titel{
+    font-size: 29px;
+    font-weight: 800;
+    color: white;
+    padding: 8px 31px;
+}
+.footer-app .image-box{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin: -8px 8px
+}
+.footer-app .t-icon{
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 19px;
+    margin:-33px 11px;
+    background-color: white;
+    z-index: 1;
+}
+.fec{
+    background-color: #1e4fa9;
+    width: 40px;
+    border-radius: 22px;
+    height: 40px;
+    padding: 9px 13px;
+    margin: -33px 9px;
+}
+.fe-ico{
+    font-size: 21px;
+}
+.twitter{
+    height: 39px;
+    width: 40px;
+}
+.ins-icon{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 19px;
+    margin:-33px 11px;  
+}
+.ins-icon img{
+    height: 23px;
+    padding: 1px 9px;
+    margin: 7px 0px;
+}
+.ni-icon{
+ background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 19px;
+    margin:-33px 11px;  
+}
+.ni-icon img{
+    height: 27px;
+    margin: 5px 8px;
+    border-radius: 11px;
+}
+.yo-icon{
+   background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 19px;
+    margin:-33px 11px;  
+}
+.yo-icon img{
+    height: 33px;
+    width: 32px;
+    margin: 2px 3px;
+    border-radius: 12px;
+}
+hr{
+    border: 1px solid #907c7c;
+    margin: 36px 3px !important;
+}
+
+.company{
+    color: white;
+}
+.list-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    width: 40px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.h-list{
+    font-weight: 100;
+    color: #dadada;
+    padding: 5px 0px;
+}
+.design{
+    color: #c4c4c4;
+}
+.seriv{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    width: 40px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.app-des{
+    padding: 9px 0px;
+}
+.logo-des{
+    padding: 6px 1px
+}
+.account-list{
+    color: white;
+}
+.account-list .account{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    width: 40px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.profile{
+    color: #c4c4c4;
+    padding: 4px 0px
+}
+.courses-list .courses{
+      color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    width: 40px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.Subs-list{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    width: 40px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.footer-des{
+    display: flex;
+    justify-content: space-around;
+}
+.email-box{
+    height: 35px;
+    margin: 11px 0px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: #121299;
+    color: white;
+    border: 1px solid;
+    padding: 0px 7px;
+    font-size: 14px;
+}
+.subscribe-button{
+    background-color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #2e2eaf;
+}
+.top-footer{
+    color: white;
+    position: absolute;
+    bottom: -89px;
+    width: 99.9%;
+    background-color: #091a3f;
+    height: 48px;
+}
+.police{
+    text-align: end;
+    margin: -31px 9px;
+    font-size: 14px;
+    color: #d3d3d3d4;
+}
+.text{
+    text-align: end;
+    margin: 15px 9px;
+    font-size: 14px;
+    color: #d3d3d3d4;
+    display: inline-block;
+}
+.minu-bar{
+    display: none;
+}

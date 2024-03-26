@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 40%;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: rgb(231 231 231 / 15%);
+    box-shadow: 1px 5px 24px;
+    display: flex;
+}
+.border{
+    border: 1px solid gray;
+}
+hr{
+  
+    margin:6px!important;
+}
+.heading{
+    font-size: 22px;
+    font-weight: 800;
+    color: #003eff;
+    text-decoration: underline;
+}
+
+.container name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #454647;
+}
+.circle{
+    display: inline-block;
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 23px;
+    background-color: black;
+}
+.title{
+    font-size: 25px;
+    margin: 9px 32px;
+    font-weight: 600;
+}
+.google-button{
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: 27px;
+    padding: 4px;
+    margin: 0px 28px;
+}
+.google-button span{
+    font-size: 13px;
+    padding: 9px;
+}
+.facebook-button span{
+    font-size: 13px;
+    padding: 7px
+}
+.background-img{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+.w-300{
+    width:300px;
+}
+.logo{
+    margin: 129px auto;
+    position: relative;
+    font-size: 20px;
+    padding: 18px;
+    font-weight: 700;
+}
+.logo span{
+    font-size: 40px;
+    color: coral;
+}
+.vege-img{
+    position: relative;
+}
+.login-page{
+    color: blue;
+    font-weight: 700;
+}
+.select-box{
+    margin: 9px -26px
+}
+.check-box{
+    margin: 8px 8px;
+}
+.login{
+    margin: 7px 4px;
+}
