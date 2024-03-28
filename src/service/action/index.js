@@ -1,3 +1,6 @@
 export const appActions = {
-    REGISTER: "REGISTER"
+    REGISTER: "REGISTER",
+    LOGIN:"LOGIN",
+    GET_USER:"GET_USER",
+
 }

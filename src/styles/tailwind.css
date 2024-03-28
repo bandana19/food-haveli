@@ -10,3 +10,5 @@
 @import 'custom/footer.scss';
 @import 'custom/productList.scss';
 @import 'custom/crousel.scss';
+@import './custom/dashboard.scss';
+@import './custom//delevery.scss';

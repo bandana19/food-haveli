@@ -1,5 +1,5 @@
 
-import { Box, Checkbox, TextField, useMediaQuery } from '@mui/material';
+import { Box, Checkbox, TextField } from '@mui/material';
 import { Fragment } from 'react';
 import { Button, Stack } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,9 @@ import { inputBox, signUp } from '../../styles/materialCss/registerStyle';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { registerAction } from '../../service/action/authentication';
+import { Toaster } from '../../components/toaster/Toaster';
+import Header from '../../layout/Header';
+import Footer from '../../layout/Footer';
 
 const Register = () => {
   const {
@@ -20,12 +23,16 @@ const Register = () => {
 
   const registerButton = (data) => {
     console.log("data", data)
+    const callBack=()=>{
+      Toaster.success("Register Successfully")
+    }
+    dispatch(registerAction({data:data,cb:callBack}))
   }
 
   return (
     <Fragment>
 
-
+     <Header/>
       <div className='container'>
         <div className='row '>
           <div className='col-12 '>
@@ -99,7 +106,6 @@ const Register = () => {
               <Button variant="outlined" style={signUp} onClick={handleSubmit(registerButton)}>Continue</Button>
             </Stack>
 
-            <button onClick={()=>dispatch(registerAction({data:"ddd"}))}>fff</button>
 
             <div className='row'>
               <p className='login'>Already have an account?<span className='login-page'><Link to={'/login'}>Log in</Link></span></p>
@@ -109,6 +115,8 @@ const Register = () => {
 
         </div>
       </div>
+
+      <Footer/>
     </Fragment>
   )
 }

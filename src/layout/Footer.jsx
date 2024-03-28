@@ -14,7 +14,7 @@ const Footer = () => {
                 <li className='t-icon'><img className='twitter' src='/img/twitter.webp' alt=''/></li>
                 <li className='ins-icon'><img  src='/img/insta.webp' alt=""/></li>
                 <li className='ni-icon'><img src='/img/in-logo.png' alt=""/></li>
-                <li className='yo-icon'><img src='/img/you.jpg' alt=""/></li>
+                <li className='yo-icon'><img src='/img/search.jpg' alt=""/></li>
 
                 <li><i class="fa fa-align-justify minu-bar "
                 onClick={()=>setOpenBar(true)}></i></li>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 }
             </ul>
-            <hr/>
+            <hr className='footer-hrow'/>
           
             <div className='footer-des'>
             <ul className='company'>

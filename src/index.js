@@ -6,11 +6,19 @@ import './styles/tailwind.css';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './service/store';
+import { ToastContainer } from 'react-toastify';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Provider store={store}>
     <App />
+    <ToastContainer
+            hideProgressBar
+            position="top-center"
+            limit={1}
+            newestOnTop={true}
+            autoClose={2000}
+          />
     </Provider>
 );
 

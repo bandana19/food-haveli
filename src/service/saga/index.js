@@ -7,6 +7,8 @@ function* mySaga() {
   //   Yield takeLatest(item, sagaEngine);
   // });
   yield takeLatest(appActions.REGISTER, sagaEngine);
+  yield takeLatest(appActions.LOGIN,sagaEngine)
+  yield takeLatest(appActions.GET_USER,sagaEngine)
 }
 
 
