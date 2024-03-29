@@ -102,9 +102,27 @@
   }
 }
 
-//  login-page
+/*login page  */
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 960px) {
+  .login-file {
+    width: 70%!important;
+  }
+  .menu-just-icons {
+    margin: 23px -9px!important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .login-file {
+    width: 90%!important;
+  }
+  .menu-just-icons {
+    margin: 23px -9px!important;
+  }
+}
+
+@media only screen and (max-width: 460px) {
   .login-file {
     width: 100%!important;
   }
